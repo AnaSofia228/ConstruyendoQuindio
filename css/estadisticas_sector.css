@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #3855F5;
+}
+
+.header_a {
+    display: flex;
+    margin: 0rem;
+    align-items: center;
+}
+
+.header_logo {
+    width: 13rem;
+    height: 7rem;
+}
+
+.header_b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_link {
+    display: flex;
+    justify-content: center;
+    margin-left: 15rem;
+}
+
+.header_b_link {
+    margin: 0.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #000766;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    width: 10rem;
+    height: 2rem;
+}
+
+.header_b_1 {
+    border: solid 1px black;
+    display: flex;
+    width: 10rem;
+    height: 2rem;
+}
+
+.whatsapp, .telegram, .twiter, .facebook, .instagram, .youtube {
+    width: 2.5rem;
+    height: 2rem;
+}
+
+.header_search {
+    display: flex;
+}
+
+.search {
+    margin-left: 6.5rem;
+    height: 1.5rem;
+}
+
+.icon_search {
+    margin-left: -2.5rem;
+    width: 2.25rem;
+    height: 1.25rem;
+}
+
+/* ----------------------------------------------------------------- */
+
+.main {
+    display: flex;
+    justify-content: center;
+    height: 6rem;
+}
+
+.main_a {
+    border: solid 1px black;
+    width: 9rem;
+    height: 6rem;
+}
+
+.inicio, .quindio, .ambiental, .aliados, .practicas, .estadisticas, .normatividad, .datos, .servicios {
+    width: 9rem;
+    height: 6rem;
+}
+
+.estadisticas {
+    height: 6.5rem;
+    filter: opacity(0.3) drop-shadow(0 0 0 #7a8efd);
+}
+
+/* -------------------------------------------------------------------- */
+
+.main_b {
+    background-color: #7a8efd;
+    color: rgb(122, 142, 253);
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+.title {
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+/* -------------------------------------------------------------------- */
+
+.cards, .cards_a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin: 2rem 1.5rem;
+}
+
+.licencia, .cemento, .concretado, .indicadores, .suelos, .arquitectura {
+    width: 25rem;
+    height: 15rem;
+}
+
+.licencia_a, .cemento_a, .concretado_a, .indicadores_a, .suelos_a, .arquitectura_a {
+    border: solid 1px black;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(143, 143, 143);
+}
+
+.btnLicencia, .btnCemento, .btnConcretado, .btnIndicadores, .btnSuelos, .btnArquitectura {
+    border: solid 1px black;
+    border-radius: 1rem;
+    width: 25rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+
+.btnLicencia:hover, .btnCemento:hover, .btnConcretado:hover, .btnIndicadores:hover, .btnSuelos:hover, .btnArquitectura:hover {
+    color: #3855F5;
+    cursor: pointer;
+}
+
+
+/* ----------------------------------------------------------------- */
+
+.footer {
+    margin-top: 1rem;
+    display: flex;
+    border: solid 1px black;
+    margin-top: -2rem;
+}
+
+.location, .phone, .mail {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.location_a, .phone_a, .mail_a {
+    width: 5rem;
+    height: 2.5rem;
+}
+
+.proyect {
+    margin-left: 2rem;
+}
+
+.sena, .camacol, .sennova {
+    width: 15rem;
+    height: 10rem;
+    margin: 0.5rem;
+}
