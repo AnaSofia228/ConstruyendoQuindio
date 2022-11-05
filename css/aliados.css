@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #3855F5;
+}
+
+.header_a {
+    display: flex;
+    margin: 0rem;
+    align-items: center;
+}
+
+.header_logo {
+    width: 13rem;
+    height: 7rem;
+}
+
+.header_b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_link {
+    display: flex;
+    justify-content: center;
+    margin-left: 15rem;
+}
+
+.header_b_link {
+    margin: 0.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #000766;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    width: 10rem;
+    height: 2rem;
+}
+
+.header_b_1 {
+    border: solid 1px black;
+    display: flex;
+    width: 10rem;
+    height: 2rem;
+}
+
+.whatsapp, .telegram, .twiter, .facebook, .instagram, .youtube {
+    width: 2.5rem;
+    height: 2rem;
+}
+
+.header_search {
+    display: flex;
+}
+
+.search {
+    margin-left: 6.5rem;
+    height: 1.5rem;
+}
+
+.icon_search {
+    margin-left: -2.5rem;
+    width: 2.25rem;
+    height: 1.25rem;
+}
+
+/* ----------------------------------------------------------------- */
+
+.main {
+    display: flex;
+    justify-content: center;
+    height: 6rem;
+}
+
+.main_a {
+    border: solid 1px black;
+    width: 9rem;
+    height: 6rem;
+}
+
+.inicio, .quindio, .ambiental, .aliados, .practicas, .estadisticas, .normatividad, .datos, .servicios {
+    width: 9rem;
+    height: 6rem;
+}
+
+.aliados {
+    height: 6.5rem;
+    filter: opacity(0.3) drop-shadow(0 0 0 #7a8efd);
+}

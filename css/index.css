@@ -195,3 +195,11 @@ body {
     height: 10rem;
     margin: 0.5rem;
 }
+
+.derechos {
+    border: solid 1px black;
+    background-color: rgb(122, 122, 122);
+    text-align: center;
+    font-size: 0.5rem;
+    color: white;
+}
