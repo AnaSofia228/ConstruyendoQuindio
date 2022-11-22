@@ -146,7 +146,7 @@ img {
 
 .contePuntos {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     background-color: #000766;
 }
@@ -160,6 +160,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0.5rem;
 }
 
 .datosAbiertos-1 {
