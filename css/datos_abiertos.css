@@ -219,6 +219,33 @@ img {
 
 /* ------------------------------------------------------------ */
 
+.categorias {
+    border: solid 2px black;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    background-color: darkgray;
+}
+
+.categorias_A {
+    border: solid 1px black;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    padding: 1rem;
+}
+
+.categoriasA {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+
+/* --------------------------------------------------------------- */
+
 .footer {
     margin-top: 1rem;
     display: flex;
@@ -254,3 +281,5 @@ img {
     font-size: 0.5rem;
     color: white;
 }
+
+/* --------------------------------------------------------------- */
