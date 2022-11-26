@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #3855F5;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 20px 15px 20px rgb(54, 48, 48);
+}
+.h2 {
+    margin-top: 2rem;
+}
+
+.documento {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    border: solid 1px black;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    font-size: 1.5rem;
+    box-shadow: 20px 10px 20px rgb(80, 77, 77);
+
+}
+
+.texto {
+    margin-top: 0.5rem;
+    text-align: left;
+}
+.texto-2 {
+    margin-top: 0.4rem;
+}
+
+li {
+    margin-left: 2.5rem;
+    margin-top: 0.5rem;
+}
+
+img {
+    width: 50rem;
+    height: 15rem;
+    margin-left: 5rem;
+    margin-top: 1.5rem;
+}
+
+.volver {
+    margin: 2rem;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+}
+.volver > a {
+    text-decoration: none;
+    color: black;
+}
+
+.volver-a {
+    margin: 2rem;
+    padding: 1.5rem; 
+}
+.volver-a > a{
+    text-decoration: none;
+    color: black;
+}
